@@ -1,1 +1,58 @@
 /* Place CSS styles here */
+body {
+    background-image: radial-gradient( circle, #884fb6, #07074c);
+    padding: 12px 36px;
+    text-align: center;
+    font-family: 'concert one';
+    color: white;
+}
+
+.title {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 35px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.lyrics {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.line-fourteen {
+    font-size: 50px;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    transition: all 1s ease;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 50px orange;
+    }
+    to {
+        text-shadow: 0 0 140px rgb(234, 22, 100);
+    }
+}
+
+.line-fourteen:hover {
+    background-image: radial-gradient(circle, #E8B319, #E8B5BD, #06304b)
+}
